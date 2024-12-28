@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: block;
+}
+
+.anuncios {
+    background-color: lightblue;
+    display: flex;
+    width: 35%;
+    height: 500px;
+    float: left;
+}
+
+.anuncios img {
+    margin: 20px;
+}
+
+.anuncios {
+    display: block;
+}
+
+.anuncio {
+    display: flex;
+    margin: 25px;
+}
+
+.topicos {
+    background-color: lightcoral;
+    width: 60%;
+    height: 500px;
+    float: right;
+}
